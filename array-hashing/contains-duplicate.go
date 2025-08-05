@@ -1,20 +1,22 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func ContainsDuplicateDemo() {
-	// s := []int{1, 2, 3, 1}
-	s1 := []int{1, 2, 3, 4}
-	fmt.Println(containsDuplicate(s1))
+	s := []int{1, 2, 3, 1}
+	// s1 := []int{1, 2, 3, 4}
+	fmt.Println(containsDuplicate(s))
 }
 
 func containsDuplicate(nums []int) bool {
-	for i := range nums {
-		for j := i + 1; j < len(nums); j++ {
-			if nums[i] == nums[j] {
-				return true
-			}
+	seen := make(map[int]struct{}, len(nums))
+	for _, v := range nums {
+		if _, existed := seen[v]; existed {
+			return true
 		}
+		seen[v] = struct{}{}
 	}
 	return false
 }
