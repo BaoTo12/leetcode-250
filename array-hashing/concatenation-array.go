@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func ConcatenationOfArray() {
 	s1 := []int{1, 2, 1}
 	s2 := getConcatenation(s1)
 	fmt.Println(s2)
