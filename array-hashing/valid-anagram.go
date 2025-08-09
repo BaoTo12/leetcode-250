@@ -8,10 +8,10 @@ func isAnagramDemo() {
 
 	s := "rat"
 	t := "car"
-	fmt.Println(isAnagram(s, t))
+	fmt.Println(IsAnagram(s, t))
 }
 
-func isAnagram(s string, t string) bool {
+func IsAnagram(s string, t string) bool {
 	if len(s) != len(t) {
 		return false
 	}

@@ -4,5 +4,5 @@ func main() {
 	// ConcatenationOfArray()
 	// ContainsDuplicateDemo()
 	// isAnagramDemo()
-	TwoSumDemo()
+	LongestCommonPrefixDemo()
 }
