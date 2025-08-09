@@ -5,5 +5,6 @@ func main() {
 	// ContainsDuplicateDemo()
 	// isAnagramDemo()
 	// LongestCommonPrefixDemo()
-	RemoveElementDemo()
+	// RemoveElementDemo()
+	MajorityElementDemo()
 }
