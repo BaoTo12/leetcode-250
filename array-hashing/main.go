@@ -6,5 +6,6 @@ func main() {
 	// isAnagramDemo()
 	// LongestCommonPrefixDemo()
 	// RemoveElementDemo()
-	MajorityElementDemo()
+	// MajorityElementDemo()
+	GroupAnagramsDemo()
 }
