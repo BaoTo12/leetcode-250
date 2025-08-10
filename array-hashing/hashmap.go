@@ -70,6 +70,15 @@ func (m *MyHashMap) Remove(key int) {
 		m.buckets[idx] = cur.next
 		return
 	}
+	prev := cur
+	cur = cur.next
+	for cur != nil {
+		if cur.key == key {
+			prev.next = cur.next
+			return
+		}
+		prev, cur = cur, cur.next
+	}
 }
 
 // key
