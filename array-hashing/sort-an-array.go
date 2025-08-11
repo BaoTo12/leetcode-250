@@ -15,7 +15,7 @@ func sortArray(nums []int) []int {
 
 // ! Comparison-based sorting (dựa trên so sánh)
 // bubble sort: so sánh và đổi chỗ phần tử kề nhau cho đến khi mảng được sắp xếp. Rất trực quan, nhưng chậm (O(n²)), thường chỉ để học
-// selection sort: ỗi lần chọn phần tử nhỏ nhất trong phần chưa sắp xếp, rồi swap vào vị trí thích hợp. O(n²), dùng khi write-cost cao vì số lượng “swap” tối thiểu
+// selection sort: mỗi lần chọn phần tử nhỏ nhất trong phần chưa sắp xếp, rồi swap vào vị trí thích hợp. O(n²), dùng khi write-cost cao vì số lượng “swap” tối thiểu
 // insertion sort: kiểu như chơi bài: mỗi lần chèn phần tử vào vị trí đúng của phần đã sắp xếp. Thích hợp với mảng gần như đã sắp. O(n²) worst-case nhưng hiệu quả thực (adaptive)
 // merge sort:  chia để trị, chia mảng thành hai phần, sort rồi merge lại. O(n log n) time, cần extra space O(n), nhưng là stable sort
 // quick sort: dùng pivot để phân vùng, rồi đệ quy sort từng phần. Thường rất nhanh, O(n log n) trung bình, O(n²) worst-case, không stable

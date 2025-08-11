@@ -9,5 +9,6 @@ func main() {
 	// MajorityElementDemo()
 	// GroupAnagramsDemo()
 	// SortArrayDemo()
-	BubbleSortDemo()
+	// BubbleSortDemo()
+	SelectionSortDemo()
 }
