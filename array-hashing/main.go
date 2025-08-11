@@ -7,5 +7,7 @@ func main() {
 	// LongestCommonPrefixDemo()
 	// RemoveElementDemo()
 	// MajorityElementDemo()
-	GroupAnagramsDemo()
+	// GroupAnagramsDemo()
+	// SortArrayDemo()
+	BubbleSortDemo()
 }
