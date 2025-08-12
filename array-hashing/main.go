@@ -10,5 +10,6 @@ func main() {
 	// GroupAnagramsDemo()
 	// SortArrayDemo()
 	// BubbleSortDemo()
-	SelectionSortDemo()
+	// SelectionSortDemo()
+	InsertionSortDemo()
 }
