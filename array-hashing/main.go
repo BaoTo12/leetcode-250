@@ -11,5 +11,6 @@ func main() {
 	// SortArrayDemo()
 	// BubbleSortDemo()
 	// SelectionSortDemo()
-	InsertionSortDemo()
+	// InsertionSortDemo()
+	QuickSortDemo()
 }
