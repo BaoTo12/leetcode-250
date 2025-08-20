@@ -13,5 +13,6 @@ func main() {
 	// SelectionSortDemo()
 	// InsertionSortDemo()
 	// QuickSortDemo()
-	SortColorsDemo()
+	// SortColorsDemo()
+	TopKFrequentDemo()
 }
