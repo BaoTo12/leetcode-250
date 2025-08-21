@@ -14,5 +14,6 @@ func main() {
 	// InsertionSortDemo()
 	// QuickSortDemo()
 	// SortColorsDemo()
-	TopKFrequentDemo()
+	// TopKFrequentDemo()
+	SumRegionDemo()
 }
