@@ -10,15 +10,6 @@ class NumMatrix:
         print(self.prefixSum)  # 6 x 6
         for i in range(m):
             for j in range(n):
-                print("i, j: ", i, j)
-                print("i+1, j+1: ", i+1, j+1)
-                print("self.prefixSum[i][j+1]",
-                      "[", i, j+1, "]", self.prefixSum[i][j+1])
-                print("+ self.prefixSum[i+1][j]", "[",
-                      i+1, j, "]", self.prefixSum[i+1][j])
-                print("- self.prefixSum[i][j]", "[",
-                      i, j, "]", self.prefixSum[i][j])
-                print("+ matrix[i][j]", matrix[i][j])
                 self.prefixSum[i+1][j+1] = (self.prefixSum[i][j+1]
                                             + self.prefixSum[i+1][j]
                                             - self.prefixSum[i][j]

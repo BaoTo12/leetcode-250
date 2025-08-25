@@ -15,5 +15,7 @@ func main() {
 	// QuickSortDemo()
 	// SortColorsDemo()
 	// TopKFrequentDemo()
-	SumRegionDemo()
+	// SumRegionDemo()
+	MajorityElementIIDemo()
+	// BoyerMooreVotingAlgorithmDemo()
 }
