@@ -2,13 +2,13 @@ package main
 
 import "fmt"
 
-func removeDuplicatesDemo() {
+func RemoveDuplicatesDemo() {
 	nums := []int{1, 1, 2}
-	result := removeDuplicatesV1(nums)
+	result := RemoveDuplicatesV1(nums)
 	fmt.Println(result)
 }
 
-func removeDuplicatesV1(nums []int) int {
+func RemoveDuplicatesV1(nums []int) int {
 	i, j := 0, 0
 	for range len(nums) {
 		for j < len(nums) && nums[i] == nums[j] {

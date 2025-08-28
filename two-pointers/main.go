@@ -6,5 +6,8 @@ func main() {
 	// MergeAlternatelyDemo()
 	// mergeDemo()
 	// removeDuplicatesDemo()
-	twoSumDemo()
+	// twoSumDemo()
+	// threeSumDemo()
+	// fourSumDemo()
+	RotateArrayDemo()
 }
