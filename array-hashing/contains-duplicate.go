@@ -11,7 +11,7 @@ func ContainsDuplicateDemo() {
 	// fmt.Println(CheckLengthToCheckDuplicate(s1))
 }
 
-func containsDuplicate(nums []int) bool {
+func ContainsDuplicate(nums []int) bool {
 	seen := make(map[int]struct{}, len(nums))
 	for _, v := range nums {
 		if _, existed := seen[v]; existed {
