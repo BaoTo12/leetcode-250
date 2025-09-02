@@ -3,5 +3,6 @@ package main
 func main() {
 	// ContainsNearbyDuplicateDemo()
 	// LengthOfLongestSubstringDemo()
-	CharacterReplacementDemo()
+	// CharacterReplacementDemo()
+	CheckInclusionDemo()
 }

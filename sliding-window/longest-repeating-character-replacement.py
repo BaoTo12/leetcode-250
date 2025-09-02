@@ -25,7 +25,7 @@ def characterReplacement_sliding_window(s: str, k: int) -> int:
     return res
 
 # Ví dụ test
-print(characterReplacement_sliding_window("ABAB", 2))      # 4
+print(characterReplacement_sliding_window("BBBB", 2))      # 4
 # print(characterReplacement_sliding_window("AABABBA", 1))   # 4
 
 
