@@ -4,5 +4,6 @@ func main() {
 	// ContainsNearbyDuplicateDemo()
 	// LengthOfLongestSubstringDemo()
 	// CharacterReplacementDemo()
-	CheckInclusionDemo()
+	// CheckInclusionDemo()
+	MinSubArrayLenDemo()
 }
